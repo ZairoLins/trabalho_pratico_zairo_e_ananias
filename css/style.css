@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+:root {
+    --color1: #000000;
+    --color2: #0D1B26;
+    --color3: #1A374C;
+    --color4: #265273;
+    --color5: #316E9B;
+}
+
+body{
+    background-color: #000000;
+}
+/*----------------------Cabeçalho----------------------*/
+#cabeçalho h1 {
+    margin-top: 0px;
+    padding: 200px;
+    border: 200px;
+}
+
+#cabeçalho {
+    height: calc(104vh - 80px);
+    background-image: url(../img/Header-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-----------------------------------------------------*/
+
+/*---------------Conteudo do Cabeçalho-----------------*/
+
+.titulo h1 {
+    margin: 250px;
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.titulo p{
+    margin-top: 0px;
+    text-align: right;
+    font-family: 'nunito', sans-serif;
+    font-size: 10px;
+}
+
+/*-----------------------------------------------------*/
+
+/*-------------------Menu----------------------*/
+
+#menu-h {
+    background-color: var(--color1)
+}
+
+#menu-h ul {
+    text-align: right;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    background-color: var(--color1);
+}
+
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a {
+    font-family: 'oswald', sans-serif;
+    font-size: 15px;
+    margin: 0px;
+    color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#menu-h li a:hover {
+    background-color: var(--color5);
+}
+
+/*---------------------------------------------*/
+
+/*-----------Conteudo HTML-------------*/
+
+.titulos {
+    font-family: 'oswald', sans-serif;
+    font-size: 22px;
+    color: var(--color2);
+    margin-left: 20px;
+}
+
+.subtitulos {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.paragrafos {
+    font-family: 'Nunito', sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    margin-left: 20px;
+    line-height: 15px;
+    color: #316E9B;
+}
+
+/*----------------------------------------*/
+
+blockquote {
+    background: #4bb1fa3a;
+    border-left:6px solid #ccc;
+    font-family: 'Heebo' sans-serif;
+    margin:1.5em 10px;
+    padding:.5em 10px;
+    quotes:"\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color:#ccc;
+    content:open-quote;
+    font-family: cambria, Arial, Helvetica, sans-serif;
+    font-size:6em;
+    line-height:.1em;
+    margin-right:.25em;
+    vertical-align:-.4em;
+}
+
+blockquote p {
+    display:inline;
+}
+
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+} 
+
+footer{
+    border-color: #0D1B26;
+    text-align: center;
+    font-family: 'nunito', sans-serif;
+    color: #265273;
+    background-color: var(--color2);
+    padding-top: 02px;
+    padding-bottom: 10px;
+    padding: -30px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: -50px;
+    margin: 20px;
+}
+
+.card { /*Div destinada a estilização de cards da pagina sobre os povos*/
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #202020;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 20px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.karaja {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.texto {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'poppins', sans-serif;
+}
+
+.btn {
+    padding: 10px 17px;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    transition: 5s;
+    background-color: #1A374C;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: 1s;
+    background-color: #316E9B;
+    color: #ffffff;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.apresentação {
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+    margin-top: 100px;
+    background-color: #202020;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin: 20px;
+} 
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.perfil {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.content{
+    background-color: var(--color-dark2);
+    padding: 2rem;
+    border-radius: 10px;
+    min-width: 30%;
+    overflow: auto;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.content form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.span-required{
+    font-size: 12px;
+    margin: 3px 0 0 1px;
+    color: var(--color-red);
+    display: none;
+}
+
+.inputs{
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--color-dark1);
+    border: 2px solid var(--color-dark1);
+    color: var(--color-white);
+    width: 100%;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+.inputs:focus{
+    border-color: var(--color-purple1);
+}
+
+.box-select{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    gap: 1rem;
+}
+
+button[type="submit"]{
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    background-color: var(--color-purple2);
+    color: var(--color-white);
+    cursor: pointer;
+    transition: .3s;
+}
+
+button[type="submit"]:hover{
+    background-color: var(--color-purple1);
+}
+
+.fotosindigenas {
+    padding: 20px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+.indios {
+    transition: transform 1s;
+    display: flex;
+    border: #000000;
+    border-radius: 20px;
+    borde
+}
+.indios:hover {
+    transform: scale(1.2);
+}
